@@ -1,0 +1,29 @@
+{
+    "name": "infomaniak/flysystem-kdrive",
+    "description": "Flysystem Adapter for Infomaniak kDrive",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Hedger",
+            "email": "nicolas.hedger@infomaniak.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Infomaniak\\KDrive\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*",
+        "league/flysystem-webdav": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "check-style": "phpcs src",
+        "fix-style": "phpcbf src"
+    }
+}
