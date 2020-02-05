@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist][icon-version]][link-packagist]
 [![Software License][icon-license]](LICENSE.md)
-[![Total Downloads][icon-license]][link-packagist]
+[![Total Downloads][icon-downloads]][link-packagist]
 
 This package contains a [Flysystem](https://flysystem.thephpleague.com/) adapter for [Infomaniak kDrive](https://www.infomaniak.com/en/kdrive/). It is built on top of the Flysystem [WebDAV adapter](https://github.com/thephpleague/flysystem-webdav).
 
