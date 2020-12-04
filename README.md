@@ -38,19 +38,6 @@ $kDrive = new KDriveAdapter(
 $filesystem = new Filesystem($kDrive);
 ```
 
-### Path prefix
-If you wish to use a specific folder on your drive as your storage root, initialize the adapter with a custom
-path prefix.
-
-```php
-$kDrive = new KDriveAdapter(
-    '123456',               // Your kDrive's ID    
-    'john.doe@example.tld', // Your Infomaniak login email address
-    '********************', // Your generated password  
-    'my/custom/path'        // A custom path prefix
-);
-```
-
 ## Examples
 Go to the [examples](examples) directory to find a few examples to get you started.
 
